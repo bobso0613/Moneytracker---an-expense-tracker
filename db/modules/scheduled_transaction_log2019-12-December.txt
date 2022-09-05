@@ -1,0 +1,294 @@
+=====================================
+[11:51:20 am 12/10/19] CRON Job  started.
+[11:51:20 am 12/10/19] CRON Job  finished.
+[11:51:20 am 12/10/19] Duration: 0.00000 seconds.
+=====================================
+=====================================
+[11:51:36 am 12/10/19] CRON Job scheduled_transaction_cron.php started.
+[11:51:36 am 12/10/19] CRON Job scheduled_transaction_cron.php finished.
+[11:51:36 am 12/10/19] Duration: 0.00000 seconds.
+=====================================
+=====================================
+[07:22:22 pm 12/10/19] CRON Job scheduled_transaction_cron.php started.
+[07:22:22 pm 12/10/19] CRON Job scheduled_transaction_cron.php finished.
+[07:22:22 pm 12/10/19] Duration: 0.00000 seconds.
+=====================================
+=====================================
+[04:15:43 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+[04:15:43 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+[04:15:43 pm 12/16/19] Duration: 0.00000 seconds.
+=====================================
+=====================================
+[04:15:51 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+[04:15:51 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+[04:15:51 pm 12/16/19] Duration: 0.00000 seconds.
+=====================================<br/>
+=====================================<br/>
+[05:26:40 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.<br/>
+[05:26:40 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.<br/>
+[05:26:40 pm 12/16/19] Duration: 0.00000 seconds.<br/>
+=====================================<br/>
+=====================================<br/>
+[05:26:47 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.<br/>
+[05:26:47 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.<br/>
+[05:26:47 pm 12/16/19] Duration: 0.00000 seconds.<br/>
+=====================================
+<br/>=====================================
+<br/>[05:32:29 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:32:29 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:32:29 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:32:36 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:32:36 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:32:36 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:33:04 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:33:04 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:33:04 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:37:39 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:37:39 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:37:39 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:38:01 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:38:01 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:38:01 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:38:13 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:38:13 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:38:13 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:46:36 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:46:36 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:46:36 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:47:01 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:47:01 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:47:01 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:47:51 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:47:51 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:47:51 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:48:27 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:48:27 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:48:27 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:48:33 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:48:33 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:48:33 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:49:12 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:49:12 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:49:12 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:56:16 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:56:16 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:56:16 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:58:52 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:58:52 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:58:52 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:59:05 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:59:05 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:59:05 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[05:59:32 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[05:59:32 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[05:59:32 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[06:00:00 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[06:00:00 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[06:00:00 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[06:11:25 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[06:11:25 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[06:11:25 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[06:11:41 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[06:11:41 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[06:11:41 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[06:15:34 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[06:15:34 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[06:15:34 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[06:15:50 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[06:15:50 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[06:15:50 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[06:18:04 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[06:18:04 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[06:18:04 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[06:18:31 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[06:18:31 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[06:18:31 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[07:00:42 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[07:00:42 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[07:00:42 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[08:19:30 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[08:19:30 pm 12/16/19] Metrobank CC - Cash to Go June 2019 (2,980.19) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (5 days) 2019-12-16 - 2019-12-11 . Process this
+<br/>[08:19:30 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (1,332.50) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (5 days) 2019-12-16 - 2019-12-11 . Process this
+<br/>[08:19:30 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 (4,656.55) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (5 days) 2019-12-16 - 2019-12-11 . Process this
+<br/>[08:19:30 pm 12/16/19] Metrobank CC - Jett Iphone 11 (2,874.58) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (2 days) 2019-12-16 - 2019-12-14 . Process this
+<br/>[08:19:30 pm 12/16/19] Metrobank CC - Cash to Go June 2019 (2,980.19) Make Auto Entry 
+<br/>[08:19:30 pm 12/16/19]  (0.00) Done - Transaction number 2019-12-0025 
+<br/>[08:19:30 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (1,332.50) Make Auto Entry 
+<br/>[08:19:30 pm 12/16/19]  (0.00) Done - Transaction number 2019-12-0026 
+<br/>[08:19:30 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 (4,656.55) Make Auto Entry 
+<br/>[08:19:30 pm 12/16/19]  (0.00) Done - Transaction number 2019-12-0027 
+<br/>[08:19:30 pm 12/16/19] Metrobank CC - Jett Iphone 11 (2,874.58) Make Auto Entry 
+<br/>[08:19:30 pm 12/16/19]  (0.00) Done - Transaction number 2019-12-0028 
+<br/>[08:19:30 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[08:19:30 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[08:23:09 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Cash to Go June 2019 (2,980.19) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (5 days) 2019-12-16 - 2019-12-11 . Process this
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (1,332.50) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (5 days) 2019-12-16 - 2019-12-11 . Process this
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 (4,656.55) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (5 days) 2019-12-16 - 2019-12-11 . Process this
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Jett Iphone 11 (2,874.58) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (2 days) 2019-12-16 - 2019-12-14 . Process this
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Cash to Go June 2019 (2,980.19) Make Auto Entry 
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Cash to Go June 2019 (2,980.19) Done - Transaction number 2019-12-0029 
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (1,332.50) Make Auto Entry 
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (1,332.50) Done - Transaction number 2019-12-0030 
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 (4,656.55) Make Auto Entry 
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 (4,656.55) Done - Transaction number 2019-12-0031 
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Jett Iphone 11 (2,874.58) Make Auto Entry 
+<br/>[08:23:09 pm 12/16/19] Metrobank CC - Jett Iphone 11 (2,874.58) Done - Transaction number 2019-12-0032 
+<br/>[08:23:09 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[08:23:09 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[08:24:40 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[08:24:40 pm 12/16/19] Metrobank CC - Cash to Go June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] Metrobank CC - Gerald Samsung Phone Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] Metrobank CC - Jett Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (28 days more). 2019-12-16 - 2020-01-13. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] Metrobank CC - Janel Cash to Go May 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (3 days more). 2019-12-16 - 2019-12-19. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] Metrobank CC - Angel Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (8 days more). 2019-12-16 - 2019-12-24. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] Citibank CC - Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] Citibank CC - Janel Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] Citibank CC - Speed Cash June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] Citibank CC - Janel Speed Cash Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:24:40 pm 12/16/19] There are no scheduled transactions to process today. [08:24:40 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[08:24:40 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[08:24:56 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[08:24:56 pm 12/16/19] Metrobank CC - Cash to Go June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] Metrobank CC - Gerald Samsung Phone Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] Metrobank CC - Jett Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (28 days more). 2019-12-16 - 2020-01-13. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] Metrobank CC - Janel Cash to Go May 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (3 days more). 2019-12-16 - 2019-12-19. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] Metrobank CC - Angel Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (8 days more). 2019-12-16 - 2019-12-24. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] Citibank CC - Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] Citibank CC - Janel Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] Citibank CC - Speed Cash June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] Citibank CC - Janel Speed Cash Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:24:56 pm 12/16/19] There are no scheduled transactions to process today. 
+<br/>[08:24:56 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[08:24:56 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[08:27:55 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[08:27:55 pm 12/16/19] Metrobank CC - Cash to Go June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] Metrobank CC - Gerald Samsung Phone Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] Metrobank CC - Jett Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (28 days more). 2019-12-16 - 2020-01-13. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] Metrobank CC - Janel Cash to Go May 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (3 days more). 2019-12-16 - 2019-12-19. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] Metrobank CC - Angel Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (8 days more). 2019-12-16 - 2019-12-24. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] Citibank CC - Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] Citibank CC - Janel Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] Citibank CC - Speed Cash June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] Citibank CC - Janel Speed Cash Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:27:55 pm 12/16/19] There are no scheduled transactions to process today. 
+<br/>[08:27:55 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[08:27:55 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+<br/>=====================================
+<br/>[08:28:00 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+<br/>[08:28:00 pm 12/16/19] Metrobank CC - Cash to Go June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] Metrobank CC - Gerald Samsung Phone Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] Metrobank CC - Jett Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (28 days more). 2019-12-16 - 2020-01-13. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] Metrobank CC - Janel Cash to Go May 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (3 days more). 2019-12-16 - 2019-12-19. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] Metrobank CC - Angel Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (8 days more). 2019-12-16 - 2019-12-24. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] Citibank CC - Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] Citibank CC - Janel Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] Citibank CC - Speed Cash June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] Citibank CC - Janel Speed Cash Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+<br/>[08:28:00 pm 12/16/19] There are no scheduled transactions to process today. 
+<br/>[08:28:00 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+<br/>[08:28:00 pm 12/16/19] Duration: 0.00000 seconds.
+<br/>=====================================
+=====================================
+[08:28:28 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+[08:28:28 pm 12/16/19] Metrobank CC - Cash to Go June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+[08:28:28 pm 12/16/19] Metrobank CC - Gerald Samsung Phone Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+[08:28:28 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+[08:28:28 pm 12/16/19] Metrobank CC - Jett Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (28 days more). 2019-12-16 - 2020-01-13. Dont Process this 
+[08:28:28 pm 12/16/19] Metrobank CC - Janel Cash to Go May 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (3 days more). 2019-12-16 - 2019-12-19. Dont Process this 
+[08:28:28 pm 12/16/19] Metrobank CC - Angel Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (8 days more). 2019-12-16 - 2019-12-24. Dont Process this 
+[08:28:28 pm 12/16/19] Citibank CC - Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+[08:28:28 pm 12/16/19] Citibank CC - Janel Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+[08:28:28 pm 12/16/19] Citibank CC - Speed Cash June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+[08:28:28 pm 12/16/19] Citibank CC - Janel Speed Cash Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+[08:28:28 pm 12/16/19] There are no scheduled transactions to process today. 
+[08:28:28 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+[08:28:28 pm 12/16/19] Duration: 0.00000 seconds.
+=====================================
+=====================================
+[10:07:32 pm 12/16/19] CRON Job scheduled_transaction_cron.php started.
+[10:07:32 pm 12/16/19] Metrobank CC - Cash to Go June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+[10:07:32 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (1,332.50) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (5 days) 2019-12-16 - 2019-12-11 . Process this
+[10:07:32 pm 12/16/19] Metrobank CC - Shea Cash to Go Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (25 days more). 2019-12-16 - 2020-01-10. Dont Process this 
+[10:07:32 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (current month negative) (-1,332.50) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (5 days) 2019-12-16 - 2019-12-11 . Process this
+[10:07:32 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (fixed month) (1,332.50) Frequency 'Monthly' Today's date and Previous date gap is already qualified for processing (5 days) 2019-12-16 - 2019-12-11 . Process this
+[10:07:32 pm 12/16/19] Metrobank CC - Jett Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (28 days more). 2019-12-16 - 2020-01-13. Dont Process this 
+[10:07:32 pm 12/16/19] Metrobank CC - Janel Cash to Go May 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (3 days more). 2019-12-16 - 2019-12-19. Dont Process this 
+[10:07:32 pm 12/16/19] Metrobank CC - Angel Iphone 11 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (8 days more). 2019-12-16 - 2019-12-24. Dont Process this 
+[10:07:32 pm 12/16/19] Citibank CC - Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+[10:07:32 pm 12/16/19] Citibank CC - Janel Speed Cash 18mos Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+[10:07:32 pm 12/16/19] Citibank CC - Speed Cash June 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+[10:07:32 pm 12/16/19] Citibank CC - Janel Speed Cash Sept 2019 Frequency 'Monthly'. Today's date and Previous date gap is not yet 30 days (12 days more). 2019-12-16 - 2019-12-28. Dont Process this 
+[10:07:32 pm 12/16/19] PLDT Bill (adjust if amount different) (691.75) No previous run yet. Process this
+[10:07:32 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (1,332.50) Make Auto Entry 
+[10:07:32 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (1,332.50) Done - Transaction number 2019-12-0147 
+[10:07:32 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (current month negative) (-1,332.50) Make Auto Entry 
+[10:07:32 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (current month negative) (-1,332.50) Done - Transaction number 2019-12-0148 
+[10:07:32 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (fixed month) (1,332.50) Make Auto Entry 
+[10:07:32 pm 12/16/19] Metrobank CC - Gerald Samsung Phone (fixed month) (1,332.50) Done - Transaction number 2019-12-0149 
+[10:07:32 pm 12/16/19] PLDT Bill (adjust if amount different) (691.75) Make Auto Entry 
+[10:07:32 pm 12/16/19] PLDT Bill (adjust if amount different) (691.75) Done - Transaction number 2019-12-0150 
+[10:07:32 pm 12/16/19] CRON Job scheduled_transaction_cron.php finished.
+[10:07:32 pm 12/16/19] Duration: 0.00000 seconds.
+=====================================

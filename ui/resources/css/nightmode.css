@@ -1,0 +1,347 @@
+body{
+background-color:#1e1e1e;
+color:#e0e0e0;
+}
+
+a{
+color:#eee;
+}
+a:hover{
+color:#eeeeee;
+}
+
+.navbar-default{
+	border:color:rgba(0,0,0,0.0);
+}
+
+
+.navbar-default.sidebar{
+background-color:#1e1e1e;
+color:#e0e0e0;
+}
+
+.nav>li>a{
+color:#e0e0e0;
+}
+
+
+#footer-main #footer-main-div a, #footer-main #footer-main-div span{
+color:#e0e0e0
+}
+
+
+#page-wrapper{
+background-color:#1e1e1e;
+border-left: 1px solid #777;
+}
+
+.panel{
+background-color:#1e1e1e;
+}
+
+.panel-default>.panel-heading{
+background-color: #5e5e5e;
+color: #e0e0e0;
+}
+.chat-panel .panel-footer{
+background-color: #5e5e5e;
+color: #e0e0e0;
+}
+
+#sidebar-toggle-button,
+#sidebar-toggle-button-right{
+background-color:#1e1e1e;
+color:#e0e0e0;
+border-color:#777;
+}
+
+.back-to-top{
+background-color:#1e1e1e;
+color:#e0e0e0;
+border-color:#777;
+}
+
+.help-block{
+color: #eee;
+}
+
+
+.form-control:focus {
+border-color: #e8e8e8;
+outline: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,.075),0 0 8px rgba(255,255,255,.6);
+box-shadow: inset 0 1px 1px rgba(255,255,255,.075),0 0 8px rgba(255,255,255,.6);
+}
+
+a.list-group-item{
+color:#e0e0e0;
+}
+.list-group-item{
+background-color:#1e1e1e;
+color:#e0e0e0;
+}
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  color: #1e1e1e;
+  background-color:#dedede;
+}
+
+.well{
+background-color:#4e4e4e;
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
+color: #e0e0e0;
+cursor: not-allowed;
+background-color: #1e1e1e;
+border-color: #ddd;
+}
+
+.pagination > li > a, .pagination > li > span{
+color:#e0e0e0;
+background-color:#777;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+color:#1e1e1e;
+background-color:#e0e0e0;
+border-color:#e0e0e0;
+}
+
+tr.success td, tr.info td, tr.warning td, tr.danger td{
+color:#1e1e1e;
+}
+
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+color: #1e1e1e;
+}
+
+.datepicker table tr td.day:hover {
+background: #eeeeee;
+color:#1e1e1e;
+cursor: pointer;
+}
+.datepicker thead tr:first-child th:hover, .datepicker tfoot tr th:hover {
+background: #eeeeee;
+color:#1e1e1e;
+}
+
+.panel-footer{
+color:#1e1e1e;
+}
+
+.jumbotron{
+background-color:#777;
+}
+
+.popover{
+color:#1e1e1e;
+}
+
+.tooltip{
+
+}
+
+.modal{
+background-color:rgba(255,255,255,0.3);
+}
+.modal-content{
+background-color:#1e1e1e;
+}
+.close{
+color:#e0e0e0;
+}
+
+div.modal-header.yellow-modal-header .close,
+div.modal-header.orange-modal-header .close,
+div.modal-header.green-modal-header .close,
+div.modal-header.skyblue-modal-header .close,
+div.modal-header.gold-modal-header .close{
+color:#303030;
+}
+
+.alert button.close {
+color:#000;
+}
+
+@media (min-width: 768px){
+.modal-content {
+-webkit-box-shadow: 0 5px 15px rgba(255, 255, 255, .5);
+box-shadow: 0 5px 15px rgba(255, 255, 255, .5);
+}
+}
+
+.show-grid [class^=col-] {
+color:#1e1e1e;
+border: 1px solid #000;
+}
+
+.dropdown-menu.dropdown-user{
+background:#eee;
+color:#5c5c5c;
+box-shadow: 0 6px 12px rgba(255,255,255,.175);
+}
+.dropdown-menu.dropdown-user li a:hover{
+background:#555;
+color:#eee;
+}
+.dropdown-menu li a:hover{
+background:#555;
+color:#eee;
+}
+.datepicker-dropdown{
+background-color:#1e1e1e;
+border:1px solid rgba(255,255,255,.15);
+box-shadow: 0 6px 12px rgba(255,255,255,.175);
+}
+
+.sidebar ul li a.active, .nav>li>a:focus, .nav>li>a:hover{
+color: #e0e0e0;
+/*background-color: #eee;*/
+border-color:#555;
+}
+
+.chat-sidebar{
+background-color:#1e1e1e;
+border-left: 1px solid #777;
+}
+.popup-box{
+background-color:#1e1e1e;
+/*border: 1px solid #eee;*/
+-webkit-box-shadow: 0 5px 15px rgba(1,35,101,.5);
+box-shadow: 0 5px 15px rgba(1,35,101,.5);
+}
+
+.popup-msg-proper{
+	color:#303030;
+}
+
+time{ 
+color: #303030;
+}
+.popup-msg-proper .username{
+	color: #303030;
+}
+
+.dashboard-tiles:hover{
+  outline: 3px solid #fff;
+}
+.chat-sidebar .mini-title h5{
+	color:#e0e0e0;
+}
+/*.filter-row {
+  border: 1px solid #e0e0e0;
+}*/
+
+#calendar table th {
+	color:#f0f0f0;
+}
+
+.popup-box .popup-inputmessage textarea{
+    color:#303030;
+}
+
+.popup-msg-proper a .username {
+    color: #303030;
+    
+}
+
+.dropdown-menu li.notification-item a:hover {
+  background: none;
+  color: #eee;
+}
+
+.dropdown-menu li a:hover div.time {
+  background: none;
+  color: #eee;
+}
+.dropdown.dropdown-task-list li.task-item  div.actions a:hover{
+background: none;
+  color: #333;
+}
+.dropdown-menu li .footer-content a:hover{
+  background: none;
+  color:#333;
+}
+.dropdown-menu li .header-actions a:hover{
+  background: none;
+  color:#333;
+}
+
+.panel-default>.panel-footer {
+  background-color: #5e5e5e;
+  color: #e0e0e0;
+}
+
+th.table-header,table.dataTable thead .table-header.sorting, table.dataTable thead .table-header.sorting_asc, table.dataTable thead .table-header.sorting_desc, table.dataTable thead .table-header.sorting_asc_disabled, table.dataTable thead .table-header.sorting_desc_disabled {
+  background-color:#303030;
+}
+
+.modal-dialog .modal-body{
+  background-color: #2e2e2e;
+}
+
+
+tr.transaction-fields.selected td{
+  /*background-color:#eeeeee;*/
+  /*color:#303030;*/
+
+}
+
+.option-color{
+  color:#303030;
+}
+
+ tr.table-hover:hover > td {
+ color: #303030
+}
+
+
+li.unarranged_list:hover {
+  color: #303030;
+
+}
+
+.thumbnail {
+  color: #E0E0E0;
+  background-color: #303030;
+
+}
+
+.thumbnail .caption, .thumbnail .caption p {
+  color: #E0E0E0;
+
+}
+
+
+.announcement-links{
+  color:#E0E0E0;
+}
+
+.announcement-links:hover{
+  color:#E0E0E0;
+  text-decoration:underline;
+}
+
+.double-line-border-bottom{
+  border-bottom:3px double #E0E0E0;
+}
+.single-line-border-bottom{
+  border-bottom:1px solid #E0E0E0;
+}
+
+tr.outline-selected {
+  outline-color: #e3b93b;
+}
+
+.def_background {
+  background-color: #1e1e1e;
+}
+
+.big_inputtext{
+  color:#000;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}

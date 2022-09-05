@@ -1,0 +1,12 @@
+Options -MultiViews
+RewriteEngine On
+
+RewriteBase /abic-web-live/modules
+
+ErrorDocument 500 "<H1>Internal Server Error!!zz</H1>"
+ErrorDocument 404 "<H1>Page not found</H1>"
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ modules.php?url=$1 [QSA,L]

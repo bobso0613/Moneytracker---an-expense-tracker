@@ -1,0 +1,33 @@
+Options -Indexes
+RewriteEngine On
+DirectoryIndex index.php
+
+php_value session.cookie_lifetime 86400
+php_value session.gc_maxlifetime 86400
+php_value upload_max_filesize 50M
+php_value post_max_size 50M
+php_value date.timezone 'Asia/Manila'
+
+RewriteBase /moneytracker.22infinity.com.ph/ui
+
+ErrorDocument 500 /moneytracker.22infinity.com.ph/ui/error.php?type=internal_error
+ErrorDocument 401 /moneytracker.22infinity.com.ph/ui/error.php?type=unauthorized
+ErrorDocument 402 /moneytracker.22infinity.com.ph/ui/error.php?type=payment_required
+ErrorDocument 403 /moneytracker.22infinity.com.ph/ui/error.php?type=forbidden
+ErrorDocument 404 /moneytracker.22infinity.com.ph/ui/error.php?type=not_found
+ErrorDocument 405 /moneytracker.22infinity.com.ph/ui/error.php?type=not_allowed
+
+RewriteRule ^transactions/(.+)$ modules/transactions.php?url=$1 [QSA,L]
+RewriteRule ^announcements/(.*)$ announcements.php?slug=$1 [QSA,L]
+RewriteRule ^notifications/(.*)$ notifications.php?slug=$1 [QSA,L]
+RewriteRule ^tasks/(.*)$ tasks.php?slug=$1 [QSA,L]
+RewriteRule ^user_profiles/(.*)$ user_profiles.php?slug=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+#RewriteRule . /moneytracker.22infinity.com.ph/ui/$1.php [L]
+
+#RewriteRule ^(.+)$ modules.php?url=$1 [QSA,L]
+#RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
