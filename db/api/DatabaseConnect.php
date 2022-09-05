@@ -2,7 +2,7 @@
 error_reporting(0);
 
 //ini_set('error_reporting', E_ALL|E_STRICT);
-//ini_set('display_errors', 1);
+//ini_set('display_errors', 1);asdsad
 	//echo 'ea ea';
 	include_once("DatabaseParams.php");
 	include_once("mysql-php7-shim.php");

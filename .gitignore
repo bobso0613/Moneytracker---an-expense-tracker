@@ -3,4 +3,4 @@
 **/error_log*
 **/sftp*
 **/ftp*
-db/DatabaseParams.php
+db/api/DatabaseParams.php
