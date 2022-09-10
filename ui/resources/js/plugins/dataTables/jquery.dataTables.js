@@ -985,7 +985,7 @@
 		{
 			if ( oSettings.iDrawError != oSettings.iDraw && oCol.sDefaultContent === null )
 			{
-				_fnLog( oSettings, 0, "Requested unknown parameter "+
+				_fnLog( oSettings, 1, "Requested unknown parameter "+
 					(typeof oCol.mData=='function' ? '{function}' : "'"+oCol.mData+"'")+
 					" for row "+iRow, 4 );
 				oSettings.iDrawError = oSettings.iDraw;
@@ -1750,134 +1750,146 @@
 	 */
 	function _fnDraw( oSettings )
 	{
-		/* Provide a pre-callback function which can be used to cancel the draw is false is returned */
-		var aPreDraw = _fnCallbackFire( oSettings, 'aoPreDrawCallback', 'preDraw', [oSettings] );
-		if ( $.inArray( false, aPreDraw ) !== -1 )
-		{
-			_fnProcessingDisplay( oSettings, false );
-			return;
-		}
-	
-		var i, iLen, n;
-		var anRows = [];
-		var iRowCount = 0;
-		var asStripeClasses = oSettings.asStripeClasses;
-		var iStripes = asStripeClasses.length;
-		var iOpenRows = oSettings.aoOpenRows.length;
-		var oLang = oSettings.oLanguage;
-		var iInitDisplayStart = oSettings.iInitDisplayStart;
-		var bServerSide = _fnDataSource( oSettings ) == 'ssp';
-		var aiDisplay = oSettings.aiDisplay;
-	
-		oSettings.bDrawing = true;
-	
-		/* Check and see if we have an initial draw position from state saving */
-		if ( iInitDisplayStart !== undefined && iInitDisplayStart !== -1 )
-		{
-			oSettings._iDisplayStart = bServerSide ?
-				iInitDisplayStart :
-				iInitDisplayStart >= oSettings.fnRecordsDisplay() ?
-					0 :
-					iInitDisplayStart;
-	
-			oSettings.iInitDisplayStart = -1;
-		}
-	
-		var iDisplayStart = oSettings._iDisplayStart;
-		var iDisplayEnd = oSettings.fnDisplayEnd();
-	
-		/* Server-side processing draw intercept */
-		if ( oSettings.bDeferLoading )
-		{
-			oSettings.bDeferLoading = false;
-			oSettings.iDraw++;
-			_fnProcessingDisplay( oSettings, false );
-		}
-		else if ( !bServerSide )
-		{
-			oSettings.iDraw++;
-		}
-		else if ( !oSettings.bDestroying && !_fnAjaxUpdate( oSettings ) )
-		{
-			return;
-		}
-	
-		if ( aiDisplay.length !== 0 )
-		{
-			var iStart = bServerSide ? 0 : iDisplayStart;
-			var iEnd = bServerSide ? oSettings.aoData.length : iDisplayEnd;
-	
-			for ( var j=iStart ; j<iEnd ; j++ )
-			{
-				var iDataIndex = aiDisplay[j];
-				var aoData = oSettings.aoData[ iDataIndex ];
-				if ( aoData.nTr === null )
-				{
-					_fnCreateTr( oSettings, iDataIndex );
-				}
-	
-				var nRow = aoData.nTr;
-	
-				/* Remove the old striping classes and then add the new one */
-				if ( iStripes !== 0 )
-				{
-					var sStripe = asStripeClasses[ iRowCount % iStripes ];
-					if ( aoData._sRowStripe != sStripe )
-					{
-						$(nRow).removeClass( aoData._sRowStripe ).addClass( sStripe );
-						aoData._sRowStripe = sStripe;
-					}
-				}
-	
-				/* Row callback functions - might want to manipulate the row */
-				_fnCallbackFire( oSettings, 'aoRowCallback', null,
-					[nRow, aoData._aData, iRowCount, j] );
-	
-				anRows.push( nRow );
-				iRowCount++;
+        $("#loading-message").html("<b>Loading Data Table...</b>");
+		$("#blocker").fadeIn("fast",function(){
+            /* Provide a pre-callback function which can be used to cancel the draw is false is returned */
+            var aPreDraw = _fnCallbackFire( oSettings, 'aoPreDrawCallback', 'preDraw', [oSettings] );
+            if ( $.inArray( false, aPreDraw ) !== -1 )
+            {
+                _fnProcessingDisplay( oSettings, false );
+                return;
+            }
+        
+            var i, iLen, n;
+            var anRows = [];
+            var iRowCount = 0;
+            var asStripeClasses = oSettings.asStripeClasses;
+            var iStripes = asStripeClasses.length;
+            var iOpenRows = oSettings.aoOpenRows.length;
+            var oLang = oSettings.oLanguage;
+            var iInitDisplayStart = oSettings.iInitDisplayStart;
+            var bServerSide = _fnDataSource( oSettings ) == 'ssp';
+            var aiDisplay = oSettings.aiDisplay;
+        
+            oSettings.bDrawing = true;
+        
+            /* Check and see if we have an initial draw position from state saving */
+            if ( iInitDisplayStart !== undefined && iInitDisplayStart !== -1 )
+            {
+                oSettings._iDisplayStart = bServerSide ?
+                    iInitDisplayStart :
+                    iInitDisplayStart >= oSettings.fnRecordsDisplay() ?
+                        0 :
+                        iInitDisplayStart;
+        
+                oSettings.iInitDisplayStart = -1;
+            }
+        
+            var iDisplayStart = oSettings._iDisplayStart;
+            var iDisplayEnd = oSettings.fnDisplayEnd();
+        
+            /* Server-side processing draw intercept */
+            if ( oSettings.bDeferLoading )
+            {
+                oSettings.bDeferLoading = false;
+                oSettings.iDraw++;
+                _fnProcessingDisplay( oSettings, false );
+            }
+            else if ( !bServerSide )
+            {
+                oSettings.iDraw++;
+            }
+            else if ( !oSettings.bDestroying && !_fnAjaxUpdate( oSettings ) )
+            {
+                return;
+            }
+        
+            if ( aiDisplay.length !== 0 )
+            {
+                var iStart = bServerSide ? 0 : iDisplayStart;
+                var iEnd = bServerSide ? oSettings.aoData.length : iDisplayEnd;
+        
+                for ( var j=iStart ; j<iEnd ; j++ )
+                {
+                    var iDataIndex = aiDisplay[j];
+                    var aoData = oSettings.aoData[ iDataIndex ];
+                    if ( aoData.nTr === null )
+                    {
+                        _fnCreateTr( oSettings, iDataIndex );
+                    }
+        
+                    var nRow = aoData.nTr;
+        
+                    /* Remove the old striping classes and then add the new one */
+                    if ( iStripes !== 0 )
+                    {
+                        var sStripe = asStripeClasses[ iRowCount % iStripes ];
+                        if ( aoData._sRowStripe != sStripe )
+                        {
+                            $(nRow).removeClass( aoData._sRowStripe ).addClass( sStripe );
+                            aoData._sRowStripe = sStripe;
+                        }
+                    }
+        
+                    /* Row callback functions - might want to manipulate the row */
+                    _fnCallbackFire( oSettings, 'aoRowCallback', null,
+                        [nRow, aoData._aData, iRowCount, j] );
+        
+                    anRows.push( nRow );
+                    iRowCount++;
+                }
+                
+            }
+            else
+            {
+                /* Table is empty - create a row with an empty message in it */
+                var sZero = oLang.sZeroRecords;
+                if ( oSettings.iDraw == 1 &&  _fnDataSource( oSettings ) == 'ajax' )
+                {
+                    sZero = oLang.sLoadingRecords;
+                }
+                else if ( oLang.sEmptyTable && oSettings.fnRecordsTotal() === 0 )
+                {
+                    sZero = oLang.sEmptyTable;
+                }
+        
+                anRows[ 0 ] = $( '<tr/>', { 'class': iStripes ? asStripeClasses[0] : '' } )
+                    .append( $('<td />', {
+                        'valign':  'top',
+                        'style': 'padding-top:50px;padding-bottom:50px',
+                        'colSpan': _fnVisbleColumns( oSettings ),
+                        'class':   oSettings.oClasses.sRowEmpty
+                    } ).html( sZero ) )[0];
+            }
+        
+            /* Header and footer callbacks */
+            _fnCallbackFire( oSettings, 'aoHeaderCallback', 'header', [ $(oSettings.nTHead).children('tr')[0],
+                _fnGetDataMaster( oSettings ), iDisplayStart, iDisplayEnd, aiDisplay ] );
+        
+            _fnCallbackFire( oSettings, 'aoFooterCallback', 'footer', [ $(oSettings.nTFoot).children('tr')[0],
+                _fnGetDataMaster( oSettings ), iDisplayStart, iDisplayEnd, aiDisplay ] );
+        
+            var body = $(oSettings.nTBody);
+        
+            body.children().detach();
+            body.append( $(anRows) );
+        
+            /* Call all required callback functions for the end of a draw */
+            _fnCallbackFire( oSettings, 'aoDrawCallback', 'draw', [oSettings] );
+        
+            /* Draw is complete, sorting and filtering must be as well */
+            oSettings.bSorted = false;
+            oSettings.bFiltered = false;
+            oSettings.bDrawing = false;
+
+			if (typeof garr_HasSeparateBlocker !== "undefined") {
+				
+			} // if (typeof garr_HasSeparateBlocker !== "undefined") {
+			else {
+				$("#blocker").fadeOut("fast");
 			}
-		}
-		else
-		{
-			/* Table is empty - create a row with an empty message in it */
-			var sZero = oLang.sZeroRecords;
-			if ( oSettings.iDraw == 1 &&  _fnDataSource( oSettings ) == 'ajax' )
-			{
-				sZero = oLang.sLoadingRecords;
-			}
-			else if ( oLang.sEmptyTable && oSettings.fnRecordsTotal() === 0 )
-			{
-				sZero = oLang.sEmptyTable;
-			}
-	
-			anRows[ 0 ] = $( '<tr/>', { 'class': iStripes ? asStripeClasses[0] : '' } )
-				.append( $('<td />', {
-					'valign':  'top',
-					'style': 'padding-top:50px;padding-bottom:50px',
-					'colSpan': _fnVisbleColumns( oSettings ),
-					'class':   oSettings.oClasses.sRowEmpty
-				} ).html( sZero ) )[0];
-		}
-	
-		/* Header and footer callbacks */
-		_fnCallbackFire( oSettings, 'aoHeaderCallback', 'header', [ $(oSettings.nTHead).children('tr')[0],
-			_fnGetDataMaster( oSettings ), iDisplayStart, iDisplayEnd, aiDisplay ] );
-	
-		_fnCallbackFire( oSettings, 'aoFooterCallback', 'footer', [ $(oSettings.nTFoot).children('tr')[0],
-			_fnGetDataMaster( oSettings ), iDisplayStart, iDisplayEnd, aiDisplay ] );
-	
-		var body = $(oSettings.nTBody);
-	
-		body.children().detach();
-		body.append( $(anRows) );
-	
-		/* Call all required callback functions for the end of a draw */
-		_fnCallbackFire( oSettings, 'aoDrawCallback', 'draw', [oSettings] );
-	
-		/* Draw is complete, sorting and filtering must be as well */
-		oSettings.bSorted = false;
-		oSettings.bFiltered = false;
-		oSettings.bDrawing = false;
+            
+        });
 	}
 	
 	
@@ -2272,6 +2284,8 @@
 				else {
 					log( oSettings, 0, 'Ajax error', 7 );
 				}
+				// force blocker off
+				$("#blocker").fadeOut("fast");
 			}
 		};
 	
@@ -2522,12 +2536,14 @@
 		var tableId = settings.sTableId;
 		var previousSearch = settings.oPreviousSearch;
 		var features = settings.aanFeatures;
-		var input = '<input type="search" class="'+classes.sFilterInput+'"/>';
+		var input = '<input type="search" class="'+classes.sFilterInput+'" placeholder="Press <Enter> to search"/>';
+        var searchbutton = '<button type="button" class="btn btn-sm btn-info input-special-filter-search" style="margin-left:5px;"><i class="fa fa-search"></i></button>';
+        var clearSearchButton = '<button type="button" class="btn btn-sm btn-default input-special-filter-clear-search" style="margin-left:5px;"><i class="fa fa-trash"></i></button>';
 	
 		var str = settings.oLanguage.sSearch;
 		str = str.match(/_INPUT_/) ?
-			str.replace('_INPUT_', input) :
-			str+input;
+			str.replace('_INPUT_', input+searchbutton+clearSearchButton) :
+			str+input+searchbutton+clearSearchButton;
 	
 		var filter = $('<div/>', {
 				'id': ! features.f ? tableId+'_filter' : null,
@@ -2543,18 +2559,22 @@
 				var val = !this.value ? "" : this.value; // mental IE8 fix :-(
 	
 				/* Now do the filter */
-				if ( val != previousSearch.sSearch ) {
-					_fnFilterComplete( settings, {
-						"sSearch": val,
-						"bRegex": previousSearch.bRegex,
-						"bSmart": previousSearch.bSmart ,
-						"bCaseInsensitive": previousSearch.bCaseInsensitive
-					} );
-	
-					// Need to redraw, without resorting
-					settings._iDisplayStart = 0;
-					_fnDraw( settings );
-				}
+				// allow unli enter button
+				// if ( val != previousSearch.sSearch ) {
+
+                    if ( e.keyCode == 13 ) {
+                        _fnFilterComplete( settings, {
+                            "sSearch": val,
+                            "bRegex": previousSearch.bRegex,
+                            "bSmart": previousSearch.bSmart ,
+                            "bCaseInsensitive": previousSearch.bCaseInsensitive
+                        } );
+        
+                        // Need to redraw, without resorting
+                        settings._iDisplayStart = 0;
+                        _fnDraw( settings );
+                    } // if ( e.keyCode == 13 ) {
+				// }
 			} )
 			.bind( 'keypress.DT', function(e) {
 				/* Prevent form submission */
@@ -2563,6 +2583,41 @@
 				}
 			} )
 			.attr('aria-controls', tableId);
+
+        var jqButtonFilter = $('button.input-special-filter-search', filter)
+                    .bind( 'click.DT', function(e) {
+                        var val = !jqFilter[0].value ? "" : jqFilter[0].value;
+
+                        _fnFilterComplete( settings, {
+                            "sSearch": val,
+                            "bRegex": previousSearch.bRegex,
+                            "bSmart": previousSearch.bSmart ,
+                            "bCaseInsensitive": previousSearch.bCaseInsensitive
+                        } );
+        
+                        // Need to redraw, without resorting
+                        settings._iDisplayStart = 0;
+                        _fnDraw( settings );
+                    })
+                    .attr('aria-controls', tableId);
+
+        var jqButtonClearFilter = $('button.input-special-filter-clear-search', filter)
+                    .bind( 'click.DT', function(e) {
+                        var val = "";
+                        jqFilter.val( val );
+
+                        _fnFilterComplete( settings, {
+                            "sSearch": val,
+                            "bRegex": previousSearch.bRegex,
+                            "bSmart": previousSearch.bSmart ,
+                            "bCaseInsensitive": previousSearch.bCaseInsensitive
+                        } );
+        
+                        // Need to redraw, without resorting
+                        settings._iDisplayStart = 0;
+                        _fnDraw( settings );
+                    })
+                    .attr('aria-controls', tableId);
 	
 		// Update the input elements whenever the table is filtered
 		$(settings.nTable).on( 'filter.DT', function () {
@@ -2589,45 +2644,48 @@
 	 */
 	function _fnFilterComplete ( oSettings, oInput, iForce )
 	{
-		var oPrevSearch = oSettings.oPreviousSearch;
-		var aoPrevSearch = oSettings.aoPreSearchCols;
-		var fnSaveFilter = function ( oFilter ) {
-			/* Save the filtering values */
-			oPrevSearch.sSearch = oFilter.sSearch;
-			oPrevSearch.bRegex = oFilter.bRegex;
-			oPrevSearch.bSmart = oFilter.bSmart;
-			oPrevSearch.bCaseInsensitive = oFilter.bCaseInsensitive;
-		};
-	
-		// Resolve any column types that are unknown due to addition or invalidation
-		// @todo As per sort - can this be moved into an event handler?
-		_fnColumnTypes( oSettings );
-	
-		/* In server-side processing all filtering is done by the server, so no point hanging around here */
-		if ( _fnDataSource( oSettings ) != 'ssp' )
-		{
-			/* Global filter */
-			_fnFilter( oSettings, oInput.sSearch, iForce, oInput.bRegex, oInput.bSmart, oInput.bCaseInsensitive );
-			fnSaveFilter( oInput );
-	
-			/* Now do the individual column filter */
-			for ( var i=0 ; i<aoPrevSearch.length ; i++ )
-			{
-				_fnFilterColumn( oSettings, aoPrevSearch[i].sSearch, i, aoPrevSearch[i].bRegex,
-					aoPrevSearch[i].bSmart, aoPrevSearch[i].bCaseInsensitive );
-			}
-	
-			/* Custom filtering */
-			_fnFilterCustom( oSettings );
-		}
-		else
-		{
-			fnSaveFilter( oInput );
-		}
-	
-		/* Tell the draw function we have been filtering */
-		oSettings.bFiltered = true;
-		_fnCallbackFire( oSettings, null, 'search', [oSettings] );
+
+        var oPrevSearch = oSettings.oPreviousSearch;
+        var aoPrevSearch = oSettings.aoPreSearchCols;
+        var fnSaveFilter = function ( oFilter ) {
+            /* Save the filtering values */
+            oPrevSearch.sSearch = oFilter.sSearch;
+            oPrevSearch.bRegex = oFilter.bRegex;
+            oPrevSearch.bSmart = oFilter.bSmart;
+            oPrevSearch.bCaseInsensitive = oFilter.bCaseInsensitive;
+        };
+
+    
+
+        // Resolve any column types that are unknown due to addition or invalidation
+        // @todo As per sort - can this be moved into an event handler?
+        _fnColumnTypes( oSettings );
+    
+        /* In server-side processing all filtering is done by the server, so no point hanging around here */
+        if ( _fnDataSource( oSettings ) != 'ssp' )
+        {
+            /* Global filter */
+            _fnFilter( oSettings, oInput.sSearch, iForce, oInput.bRegex, oInput.bSmart, oInput.bCaseInsensitive );
+            fnSaveFilter( oInput );
+    
+            /* Now do the individual column filter */
+            for ( var i=0 ; i<aoPrevSearch.length ; i++ )
+            {
+                _fnFilterColumn( oSettings, aoPrevSearch[i].sSearch, i, aoPrevSearch[i].bRegex,
+                    aoPrevSearch[i].bSmart, aoPrevSearch[i].bCaseInsensitive );
+            }
+    
+            /* Custom filtering */
+            _fnFilterCustom( oSettings );
+        }
+        else
+        {
+            fnSaveFilter( oInput );
+        }
+    
+        /* Tell the draw function we have been filtering */
+        oSettings.bFiltered = true;
+        _fnCallbackFire( oSettings, null, 'search', [oSettings] );
 	}
 	
 	
