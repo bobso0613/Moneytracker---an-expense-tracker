@@ -114,6 +114,42 @@ if (@$_GET["transactionmode"]=="edit") {
     $ljson_Result=processCurl($lch_DBLocationString,$larr_Params);
     $larr_TRNMoneyTrail = json_decode($ljson_Result,true);
 
+    $larr_TRNMoneyTrail[0]["created_by"] = "";
+    $larr_TRNMoneyTrail[0]["updated_by"] = "";
+
+    if ($larr_TRNMoneyTrail[0]["created_user_mst_code"]!="0") {
+        $larr_MSTUserCreated = array();
+        $larr_Params = array (
+            "action" => "retrieve",
+            "fileToOpen" => "default_select_query",
+            "tableName" => "mstuser",
+            "dbconnect" => MONEYTRACKER_DB,
+            "columns" => "code,whole_name,username" ,
+            "conditions[equals][code]" => $larr_TRNMoneyTrail[0]["created_user_mst_code"],
+            "orderby" => "code ASC"
+        );
+        $ljson_Result=processCurl($lch_DBLocationString,$larr_Params);
+        $larr_MSTUserCreated = json_decode($ljson_Result,true);
+        $larr_TRNMoneyTrail[0]["created_by"] = $larr_MSTUserCreated[0]["whole_name"] . " (". $larr_MSTUserCreated[0]["username"] .")";
+    } // if ($larr_TRNMoneyTrail[0]["created_user_mst_code"]!="0") {
+
+    if ($larr_TRNMoneyTrail[0]["updated_user_mst_code"]!="0") {
+        $larr_MSTUserUpdated = array();
+        $larr_Params = array (
+            "action" => "retrieve",
+            "fileToOpen" => "default_select_query",
+            "tableName" => "mstuser",
+            "dbconnect" => MONEYTRACKER_DB,
+            "columns" => "code,whole_name,username" ,
+            "conditions[equals][code]" => $larr_TRNMoneyTrail[0]["updated_user_mst_code"],
+            "orderby" => "code ASC"
+        );
+        $ljson_Result=processCurl($lch_DBLocationString,$larr_Params);
+        $larr_MSTUserUpdated = json_decode($ljson_Result,true);
+        $larr_TRNMoneyTrail[0]["updated_by"] = $larr_MSTUserUpdated[0]["whole_name"] . " (". $larr_MSTUserUpdated[0]["username"] .")";
+    } // if ($larr_TRNMoneyTrail[0]["Updated_user_mst_code"]!="0") {
+        
+
     $larr_Params = array (
         "action" => "retrieve",
         "fileToOpen" => "default_select_query",
@@ -417,6 +453,55 @@ $larr_PeriodMonths = array(1=>"January",
                 } // if (count($larr_TRNMoneyTrailDTLItems)>0 && $larr_TRNMoneyTrailDTLItems[0]["result"]=="1") { ?>
 
                 </div>
+
+                <?php
+                if ($llo_editmode) {
+                ?>
+                    <hr>
+                    <br>
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Created by</label>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="">
+                            <input type="text" class="form-control input-sm " name="" id="" disabled
+                            value="<?php echo $larr_TRNMoneyTrail[0]["created_by"];?>"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Created at</label>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="">
+                            <input type="text" class="form-control input-sm " name="" id="" disabled
+                            value="<?php echo date_format(date_create($larr_TRNMoneyTrail[0]["created_at"]),"l, m/d/Y h:ia");?>"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Updated by</label>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="">
+                            <input type="text" class="form-control input-sm " name="" id="" disabled
+                            value="<?php echo $larr_TRNMoneyTrail[0]["updated_by"];?>"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Updated at</label>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="">
+                            <input type="text" class="form-control input-sm " name="" id="" disabled
+                            value="<?php echo date_format(date_create($larr_TRNMoneyTrail[0]["updated_at"]),"l, m/d/Y h:ia");?>"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Remarks</label>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="">
+                            <textarea class="form-control input-sm" disabled rows="3" id="" maxlength="5000"
+                                name=""><?php echo $larr_TRNMoneyTrail[0]["remarks"] ;?></textarea>
+                        </div>
+                    </div>
+                <?php
+                } // if ($llo_editmode) {
+                ?>
 
                 <br>
 

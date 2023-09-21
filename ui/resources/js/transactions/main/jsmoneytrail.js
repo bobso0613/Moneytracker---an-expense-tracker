@@ -31,6 +31,41 @@ $(document).ready(function(){
 				            	d.filterdataname = "created_user_mst_code-7"; // | separated
 				            	d.filterdata = $("#created_user_mst_code").val() ;
 
+								if ($("#payment_status").val()!="") {
+									d.filterdataname += "|payment_status-7"; // | separated
+									d.filterdata += "|" + $("#payment_status").val() ;
+								} // if ($("#payment_status").val()!="") {
+
+								if ($("#booking_year").val()!="") {
+									d.filterdataname += "|booking_year-7"; // | separated
+									d.filterdata += "|" + $("#booking_year").val() ;
+								} // if ($("#booking_year").val()!="") {
+
+								if ($("#booking_period").val()!="") {
+									d.filterdataname += "|booking_period-7"; // | separated
+									d.filterdata += "|" + $("#booking_period").val() ;
+								} // if ($("#booking_period").val()!="") {
+
+								if ($("#reference_mst_code").val()!="") {
+									d.filterdataname += "|reference_mst_code-7"; // | separated
+									d.filterdata += "|" + $("#reference_mst_code").val() ;
+								} // if ($("#reference_mst_code").val()!="") {
+
+								if ($("#money_trail_type").val()!="") {
+									d.filterdataname += "|`385`.money_trail_type-7"; // | separated
+									d.filterdata += "|" + $("#money_trail_type").val() ;
+								} // if ($("#money_trail_type").val()!="") {
+
+								if ($("#money_trail_type_mst_code").val()!="") {
+									d.filterdataname += "|money_trail_type_mst_code-7"; // | separated
+									d.filterdata += "|" + $("#money_trail_type_mst_code").val() ;
+								} // if ($("#money_trail_type_mst_code").val()!="") {
+
+								if ($("#account_money_trail_type_mst_code").val()!="") {
+									d.filterdataname += "|account_money_trail_type_mst_code-7"; // | separated
+									d.filterdata += "|" + $("#account_money_trail_type_mst_code").val() ;
+								} // if ($("#account_money_trail_type_mst_code").val()!="") {
+
 				    			// <th class="table-header" title="">Code</th>
 								// <th class="table-header" title="">Trail Date</th>
 								// <th class="table-header" title="Trail No"  style="white-space:nowrap" >Trail no.</th>
@@ -366,6 +401,8 @@ $(document).ready(function(){
 	CKEDITOR.cleanWord = function( data, editor ){
 		return data;
 	} // CKEDITOR.cleanWord = function( data, editor ){
+
+	$("#money_trail_type_mst_code").chained("#money_trail_type");
 
 }); // $(document).ready(function(){
 
